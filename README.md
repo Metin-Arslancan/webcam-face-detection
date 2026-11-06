@@ -6,11 +6,11 @@ Ein persönliches Lernprojekt in C++, das Gesichter im Livebild einer Webcam erk
 
 ### Ein erkanntes Gesicht
 
-![Ein grüner Rahmen und der Zähler Gesichter: 1](assets/demo-ein-gesicht.png)
+![Ein grüner Rahmen und der Zähler Gesichter: 1](assets/gesicht.png)
 
 ### Zwei erkannte Gesichter
 
-![Zwei grüne Rahmen und der Zähler Gesichter: 2](assets/demo-zwei-gesichter.png)
+![Zwei grüne Rahmen und der Zähler Gesichter: 2](assets/gesichter.png)
 
 ## Motivation
 
