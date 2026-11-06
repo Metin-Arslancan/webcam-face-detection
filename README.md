@@ -30,9 +30,3 @@ Die Erkennung läuft für jedes Bild separat. Mit **Esc** lässt sich das Progra
 - C++-Compiler mit C++20-Unterstützung
 - CMake 4.2 oder neuer, wie in der `CMakeLists.txt` angegeben
 - OpenCV mit Entwicklungsdateien, das CMake über `find_package(OpenCV REQUIRED)` findet
-
-```bash
-cmake -S . -B build
-cmake --build build
-./build/BVA_test
-```
