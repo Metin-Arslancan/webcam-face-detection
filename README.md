@@ -31,12 +31,6 @@ Die Erkennung läuft für jedes Bild separat. Mit **Esc** lässt sich das Progra
 - CMake 4.2 oder neuer, wie in der `CMakeLists.txt` angegeben
 - OpenCV mit Entwicklungsdateien, das CMake über `find_package(OpenCV REQUIRED)` findet
 
-## Bauen und starten
-
-Der aktuelle Stand verwendet in `main.cpp` einen lokalen absoluten Pfad zur Modelldatei. Ersetze den Pfad in `detector.load(...)` vor dem Bauen durch `"haarcascade_frontalface_default.xml"`. Starte das Programm danach aus dem Projektordner, in dem die XML-Datei liegt.
-
-Unter Linux mit einem Einzelkonfigurationsgenerator wie Ninja oder Unix Makefiles führst du im Projektordner diese Befehle aus:
-
 ```bash
 cmake -S . -B build
 cmake --build build
